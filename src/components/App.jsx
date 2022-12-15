@@ -38,7 +38,6 @@ export default function App() {
     if (total > 0) {
       result = Math.ceil((positive / total) * 100);
     }
-    console.log(result);
     return result;
   };
 
